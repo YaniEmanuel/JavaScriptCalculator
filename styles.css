@@ -1,0 +1,61 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #4da6ff, #0052cc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #calculator {
+    background-color: rgba(51, 51, 51, 0.9); /* Fondo oscuro */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    padding: 20px;
+    text-align: right;
+    color: #fff; /* Cambiar el color del texto a blanco */
+  }
+  
+  button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #777;
+  }
+  
+  /* Estilos específicos para elementos */
+  #display {
+    font-size: 32px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #clear {
+    background-color: #ff6347;
+    font-size: 24px;
+  }
+  
+  #equals {
+    background-color: #2ecc71;
+    font-size: 24px;
+  }
+  
+  #decimal {
+    background-color: #777;
+  }
+  
+  /* Estilos para los operadores */
+  #add, #subtract, #multiply, #divide {
+    background-color: #f1c40f;
+  }  
